@@ -25,7 +25,7 @@ clash精选订阅链接
 https://raw.githubusercontent.com/freex-man/subscribeX/main/clash.yml
 
 
-|节点测速结果表（30分钟自动更新）|在线节点扫码（30分钟自动更新）|
+|节点测速结果表（自动更新）|在线节点扫码（自动更新）|
 |---------------------------------------------|---------------------------------------------|
 |<img src="https://raw.githubusercontent.com/freex-man/subscribeX/main/speed.png"/>|<img src="https://raw.githubusercontent.com/freex-man/subscribeX/main/qrcode.png">|
 
