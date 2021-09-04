@@ -1,4 +1,4 @@
-节点更新时间：2021-09-04 15:08:01 <!-- 星期 6 -->
+节点更新时间：2021-09-04 15:09:01 <!-- 星期 6 -->
 
 -----------------------------------------------科学上网极速订阅-------------------------------------------------
 
@@ -14,17 +14,17 @@
 
 v2ray精选链接URL
 
-https://raw.githubusercontent.com/freex-man/subscribeX/main/link_url-30926
+https://raw.githubusercontent.com/freex-man/subscribeX/main/link_url-13911
 
 
 v2ray精选订阅链接
 
-https://raw.githubusercontent.com/freex-man/subscribeX/main/v2ray-30926
+https://raw.githubusercontent.com/freex-man/subscribeX/main/v2ray-13911
 
 
 clash精选订阅链接
 
-https://raw.githubusercontent.com/freex-man/subscribeX/main/clash-30926
+https://raw.githubusercontent.com/freex-man/subscribeX/main/clash-13911
 
 
 |节点测速结果表（自动更新）|在线节点扫码（自动更新）|
