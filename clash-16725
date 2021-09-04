@@ -5,69 +5,77 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: _912 |63.89Mb, server: 107.167.9.125, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇺🇸 US_15349 |128.64Mb, server: v2.coding996.com, port: 443, type: vmess, uuid: d0b0220b-0704-452a-b7f8-46f158091493, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v2.coding996.com}}
-  - {name: 🇺🇸 US_15248 |57.10Mb, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _914 |57.68Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: _856 |24.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
+  - {name: 🇺🇸 US_15153 |57.10Mb, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _905 |71.86Mb, server: www.17080100.xyz, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -90,9 +98,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - _912 |63.89Mb
-      - 🇺🇸 US_15349 |128.64Mb
-      - 🇺🇸 US_15248 |57.10Mb
+      - _914 |57.68Mb
+      - _856 |24.82Mb
+      - 🇺🇸 US_15153 |57.10Mb
+      - _905 |71.86Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
