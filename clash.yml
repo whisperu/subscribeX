@@ -5,237 +5,133 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇷🇺 RU_9282 |11.46Mb, server: s2-ru-2194.qdns.live, port: 2053, type: vmess, uuid: abc1b495-1fe6-3c0e-844c-445b80a44601, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: s2-ru-2194.qdns.live}}
-  - {name: _849 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇺🇸 US_15242 |47.56Mb, server: v3.coding996.com, port: 443, type: vmess, uuid: 02929ff2-2de0-4be9-940b-fc3bf7ea3a72, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v3.coding996.com}}
-  - {name: 🇺🇸 US_15260 |190.98Mb, server: v3.coding996.com, port: 443, type: vmess, uuid: 02929ff2-2de0-4be9-940b-fc3bf7ea3a72, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v3.coding996.com}}
-  - {name: 🇺🇸 US_15364 |21.08Mb, server: euserv17p.ezddns.tk, port: 80, type: vmess, uuid: 4a6cc4a6-491f-4a58-fb45-bf888f0b381f, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv17p.ezddns.tk}}
-  - {name: 🇺🇸 US_15348 |11.41Mb, server: euserv6p.ezddns.tk, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
-  - {name: _854 |22.26Mb, server: v3.ssrsub.one, port: 153, type: vmess, uuid: 7622e286-0c41-412e-8381-1fe7a2da2c91, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.one}}
-  - {name: 🇺🇸 US_15350 |12.71Mb, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: 🇺🇸 US_15382 |12.71Mb, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: _857 |21.90Mb, server: v3.ssrsub.one, port: 153, type: vmess, uuid: fe74a1aa-4849-4239-838e-1e7d9f6e975d, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v3.ssrsub.one}}
-  - {name: 🇺🇸 US_15382 |12.71Mb 2, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: 🇷🇺 RU_9258 |12.22Mb, server: s2-ru-2194.qdns.live, port: 2053, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: s2-ru-2194.qdns.live}}
-  - {name: 🇺🇸 US_15359 |12.71Mb, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: _842 |29.67Mb, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
   - {name: _852 |40.61Mb, server: 185.247.138.25, port: 15079, type: vmess, uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3, alterId: 64, cipher: auto, tls: false}
-  - {name: 🇺🇸 US_15382 |12.71Mb 3, server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}}
-  - {name: 🇺🇸 US_15343 |44.88Mb, server: v7.coding996.com, port: 443, type: vmess, uuid: 3095ccd7-cb4d-4229-98d3-fde96aa37906, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v7.coding996.com}}
-  - {name: 🇺🇸 US_15334 |11.41Mb, server: euserv6p.ezddns.tk, port: 80, type: vmess, uuid: 499737a4-9f18-4e1f-fb38-437e1855fc04, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: euserv6p.ezddns.tk}}
-  - {name: _848 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
-  - {name: 🇺🇸 US_15366 |128.64Mb, server: v2.coding996.com, port: 443, type: vmess, uuid: d0b0220b-0704-452a-b7f8-46f158091493, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v2.coding996.com}}
   - {name: _859 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: _849 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇷🇺 RU_9282 |11.46Mb, server: s2-ru-2194.qdns.live, port: 2053, type: vmess, uuid: abc1b495-1fe6-3c0e-844c-445b80a44601, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: s2-ru-2194.qdns.live}}
+  - {name: 🇷🇺 RU_9258 |12.22Mb, server: s2-ru-2194.qdns.live, port: 2053, type: vmess, uuid: ad6afad6-5659-3f25-9477-029735d5401c, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: s2-ru-2194.qdns.live}}
   - {name: 🇺🇸 US_15149 |17.61Mb, server: v6.coding996.com, port: 443, type: vmess, uuid: 1e7aca54-979a-40b0-9d1c-d7ef65a3d665, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /wechat, ws-headers: {Host: v6.coding996.com}}
+  - {name: _848 |10.81Mb, server: 67.21.72.41, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}}
+  - {name: 🇺🇸 US_15343 |44.88Mb, server: v7.coding996.com, port: 443, type: vmess, uuid: 3095ccd7-cb4d-4229-98d3-fde96aa37906, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v7.coding996.com}}
   - {name: _860 |24.82Mb, server: 198.211.30.163, port: 443, type: vmess, uuid: 6aaa2f9f-7c91-4b51-aa77-05a83a5d6a4d, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.93289686.xyz}}
   - {name: _861 |29.67Mb, server: 104.16.160.114, port: 443, type: vmess, uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.ga}}
+  - {name: 🇺🇸 US_15366 |128.64Mb, server: v2.coding996.com, port: 443, type: vmess, uuid: d0b0220b-0704-452a-b7f8-46f158091493, alterId: 4, cipher: auto, tls: true, network: ws, ws-path: /baidu, ws-headers: {Host: v2.coding996.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -258,30 +154,17 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇷🇺 RU_9282 |11.46Mb
-      - _849 |10.81Mb
-      - 🇺🇸 US_15242 |47.56Mb
-      - 🇺🇸 US_15260 |190.98Mb
-      - 🇺🇸 US_15364 |21.08Mb
-      - 🇺🇸 US_15348 |11.41Mb
-      - _854 |22.26Mb
-      - 🇺🇸 US_15350 |12.71Mb
-      - 🇺🇸 US_15382 |12.71Mb
-      - _857 |21.90Mb
-      - 🇺🇸 US_15382 |12.71Mb 2
-      - 🇷🇺 RU_9258 |12.22Mb
-      - 🇺🇸 US_15359 |12.71Mb
-      - _842 |29.67Mb
       - _852 |40.61Mb
-      - 🇺🇸 US_15382 |12.71Mb 3
-      - 🇺🇸 US_15343 |44.88Mb
-      - 🇺🇸 US_15334 |11.41Mb
-      - _848 |10.81Mb
-      - 🇺🇸 US_15366 |128.64Mb
       - _859 |10.81Mb
+      - _849 |10.81Mb
+      - 🇷🇺 RU_9282 |11.46Mb
+      - 🇷🇺 RU_9258 |12.22Mb
       - 🇺🇸 US_15149 |17.61Mb
+      - _848 |10.81Mb
+      - 🇺🇸 US_15343 |44.88Mb
       - _860 |24.82Mb
       - _861 |29.67Mb
+      - 🇺🇸 US_15366 |128.64Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
