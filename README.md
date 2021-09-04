@@ -14,17 +14,17 @@
 
 v2ray精选链接URL
 
-https://raw.githubusercontent.com/freex-man/subscribeX/main/link_url-8080
+https://raw.githubusercontent.com/freex-man/subscribeX/main/link_url-13644
 
 
 v2ray精选订阅链接
 
-https://raw.githubusercontent.com/freex-man/subscribeX/main/v2ray-8080
+https://raw.githubusercontent.com/freex-man/subscribeX/main/v2ray-13644
 
 
 clash精选订阅链接
 
-https://raw.githubusercontent.com/freex-man/subscribeX/main/clash-8080
+https://raw.githubusercontent.com/freex-man/subscribeX/main/clash-13644
 
 
 |节点测速结果表（自动更新）|在线节点扫码（自动更新）|
